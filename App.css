@@ -1,0 +1,120 @@
+/* navmenu styles */
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+}
+
+.anc {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.anc img {
+  width: 50px;
+  margin-top: 0.5rem;
+}
+
+/* cofhead styles */
+.cofhead {
+  background-color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.cofhead h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.cofhead h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+/* secdisplay styles */
+.secdisplay {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.secdisplay h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.secdisplay ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.secdisplay li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.secdisplay button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 0.5rem 
+}
+.cart {
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #fff;
+  padding: 10px;
+  border-left: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: scroll;
+}
+
+.cart h6 {
+  margin-top: 0;
+}
+
+.cart button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.cart button:hover {
+  background-color: #555;
+}
+
+.cart #cartsection {
+  margin-top: 20px;
+}
+
+.cart #cartsection h4 {
+  margin: 10px 0;
+}
+
+.cart #cartsection p {
+  margin: 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart #cartsection p:last-child {
+  border-bottom: none;
+}
